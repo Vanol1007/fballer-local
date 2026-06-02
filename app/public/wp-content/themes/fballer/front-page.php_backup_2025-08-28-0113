@@ -1,0 +1,274 @@
+<?php get_header(); ?>
+
+<?php if (have_posts()) while (have_posts()) : the_post(); ?>
+
+	<section class="section mainscreen">
+		<div class="mainscreen-background">
+			<div class="mainscreen-image">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ms-bg.png" alt="img">
+			</div>
+			<div class="ms-overlay-img">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ms-dec.svg" class="ms-decor" alt="img">
+			</div>
+		</div>
+		<div class="container">
+			<div class="mainscreen-inner">
+				<div class="section-title">
+					Находите игры, игроков, соперников, турниры и поля
+				</div>
+				<div class="mainscreen-services">
+					<div class="mainscreen-services__title">
+						Что ищем:
+					</div>
+					<div class="mainscreen-services__items">
+						<div class="mainscreen-services__item">
+							<a href="#play">
+								<div class="mainscreen-services__item-image">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/s1.jpg" alt="img">
+								</div>
+								<div class="mainscreen-services__item-name">
+									С кем поиграть
+								</div>
+							</a>
+						</div>
+						<div class="mainscreen-services__item">
+							<a href="#place">
+								<div class="mainscreen-services__item-image">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/s2.jpg" alt="img">
+								</div>
+								<div class="mainscreen-services__item-name">
+									Поле
+								</div>
+							</a>
+						</div>
+						<div class="mainscreen-services__item">
+							<a href="#champ">
+								<div class="mainscreen-services__item-image">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/s3.jpg" alt="img">
+								</div>
+								<div class="mainscreen-services__item-name">
+									Чемпионат
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<?php $ajaxVariable = 'ajaxGamesData'; ?>
+
+	<section class="section players" id="play">
+		<div class="container ajax-posts" ajax-data="<?php echo $ajaxVariable; ?>">
+			<div class="section-title">С кем поиграть?</div>
+
+			<?php
+
+	
+			$today = strtotime('today');
+
+			// Пагинация
+			$paged = (get_query_var('paged') ? get_query_var('paged') : 1);
+			$posts_per_page = ($paged == 1 ? 7 : 4);
+
+			// Запрос для получения постов с фильтром по дате game_date >= сегодня
+			$query = new WP_Query(array(
+				'post_type' => 'games',
+				'posts_per_page' => $posts_per_page,
+				'paged' => $paged,
+				'orderby' => [
+					'meta_value_num' => 'ASC',
+					'post_date' => 'DESC',
+				],
+				'meta_query' => array(
+					array(
+						'key' => 'game_date',
+						'value' => $today,
+						'compare' => '>=', // Только сегодня и будущие даты
+						'type' => 'NUMERIC',
+					),
+				),
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'city',
+						'field' => 'term_id',
+						'terms' => $_COOKIE['selected_city'],
+					),
+				),
+			));
+
+			wp_localize_script('ajax-posts', $ajaxVariable, array(
+				'ajaxurl' => admin_url('admin-ajax.php'),
+				'query_vars' => json_encode($query->query_vars),
+				'current_page' => max(1, get_query_var('paged')),
+				'max_pages' => $query->max_num_pages,
+			));
+			?>
+
+			<div class="player-items ajax-posts__items">
+				<div class="player-item" data-modal=".player-modal">
+
+					<div class="add-wrapper">
+						<svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="41" cy="41" r="41" fill="#D9D9D9" />
+							<path d="M39.644 49.4981V31.1021H43.172V49.4981H39.644ZM32 41.9801V38.6621H50.816V41.9801H32Z" fill="white" />
+						</svg>
+						<div class="add-text">Добавить свою игру</div>
+					</div>
+				</div>
+
+				<?php if ($query->have_posts()) { ?>
+					<?php
+					while ($query->have_posts()) {
+						$query->the_post();
+						get_template_part('templates/content-games-item');
+					}
+					wp_reset_postdata();
+					?>
+				<?php } ?>
+
+			</div>
+
+			<?php if ($query->max_num_pages > 1) { ?>
+
+				<a href="javascript:void(0)" id="load-more" class="primary-btn load-more ajax-posts__btn">Загрузить еще</a>
+
+			<?php } ?>
+		</div>
+	</section>
+
+	<?php $ajaxVariable = 'ajaxPlacesData'; ?>
+
+	<section class="section places" id="place">
+		<div class="container ajax-posts" ajax-data="<?php echo $ajaxVariable; ?>">
+			<div class="section-title">Поля, площадки, спорткомплексы</div>
+
+			<?php
+			// Пагинация
+			$paged = (get_query_var('paged') ? get_query_var('paged') : 1);
+			$posts_per_page = 4;
+
+			// Запрос для получения постов
+			$query = new WP_Query(array(
+				'post_type' => 'places',
+				'posts_per_page' => $posts_per_page,
+				'paged' => $paged,
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'city',
+						'field' => 'term_id',
+						'terms' => $_COOKIE['selected_city'],
+					),
+				),
+			));
+
+			wp_localize_script('ajax-posts', $ajaxVariable, array(
+				'ajaxurl' => admin_url('admin-ajax.php'),
+				'query_vars' => json_encode($query->query_vars),
+				'current_page' => max(1, get_query_var('paged')),
+				'max_pages' => $query->max_num_pages,
+			));
+			?>
+
+			<div class="places-items ajax-posts__items">
+
+				<?php if ($query->have_posts()) { ?>
+					<?php
+					while ($query->have_posts()) {
+						$query->the_post();
+						get_template_part('templates/content-places-item');
+					}
+					wp_reset_postdata();
+					?>
+				<?php } ?>
+
+			</div>
+
+			<?php if ($query->max_num_pages > 1) { ?>
+
+				<a href="/places/" id="load-more" class="primary-btn load-more">Посмотреть все</a>
+
+			<?php } ?>
+		</div>
+	</section>
+
+	<?php $ajaxVariable = 'ajaxChampsData'; ?>
+
+	<section class="section championship" id="champ">
+		<div class="container ajax-posts" ajax-data="<?php echo $ajaxVariable; ?>">
+			<div class="section-title">Чемпионаты</div>
+
+			<?php
+			// Пагинация
+			$paged = (get_query_var('paged') ? get_query_var('paged') : 1);
+			$posts_per_page = ($paged == 1 ? 5 : 3);
+
+			// Запрос для получения постов
+			$query = new WP_Query(array(
+				'post_type' => 'champs',
+				'posts_per_page' => $posts_per_page,
+				'paged' => $paged,
+				'orderby' => [
+					'meta_value_num' => 'ASC',
+					'post_date' => 'DESC',
+				],
+				'meta_query' => array(
+					array(
+						'key' => 'champ_start',
+						'compare' => 'EXISTS',
+					),
+				),
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'city',
+						'field' => 'term_id',
+						'terms' => $_COOKIE['selected_city'],
+					),
+				),
+			));
+
+			wp_localize_script('ajax-posts', $ajaxVariable, array(
+				'ajaxurl' => admin_url('admin-ajax.php'),
+				'query_vars' => json_encode($query->query_vars),
+				'current_page' => max(1, get_query_var('paged')),
+				'max_pages' => $query->max_num_pages,
+				'is_home' => true,
+			));
+			?>
+
+			<div class="championship-items ajax-posts__items">
+				<div class="championship-item">
+					<div class="add-wrapper">
+						<svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="41" cy="41" r="41" fill="#D9D9D9"></circle>
+							<path d="M39.644 49.4981V31.1021H43.172V49.4981H39.644ZM32 41.9801V38.6621H50.816V41.9801H32Z" fill="white"></path>
+						</svg>
+						<div class="add-text">Добавить Чемпонат</div>
+					</div>
+				</div>
+
+				<?php if ($query->have_posts()) { ?>
+					<?php
+					while ($query->have_posts()) {
+						$query->the_post();
+						get_template_part('templates/content-champs-item');
+					}
+					wp_reset_postdata();
+					?>
+				<?php } ?>
+
+			</div>
+
+			<?php if ($query->max_num_pages > 1) { ?>
+
+				<a href="javascript:void(0)" id="load-more" class="primary-btn load-more ajax-posts__btn">Загрузить еще</a>
+
+			<?php } ?>
+		</div>
+	</section>
+
+<?php endwhile; ?>
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

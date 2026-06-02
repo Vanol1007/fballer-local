@@ -1,0 +1,13 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /cgi-bin/
+Disallow: /wp-json/
+
+Sitemap: http://fballer.ru/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

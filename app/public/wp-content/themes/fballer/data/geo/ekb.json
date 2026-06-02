@@ -1,0 +1,284 @@
+{
+  "id": "ru-ekb",
+  "slug": "ekaterinburg",
+  "name": "Екатеринбург",
+  "type": "city",
+  "timezone": "Asia/Yekaterinburg",
+  "flags": {
+    "has_directions": true,
+    "has_admin_areas": false,
+    "has_districts": true,
+    "has_metro": true
+  },
+  "coordinates": {
+    "lat": 56.8389,
+    "lng": 60.6057
+  },
+  "map_zoom": 11,
+  "center": {
+    "lat": 56.8380,
+    "lng": 60.5975
+  },
+  "bounds": {
+    "north": 56.9700,
+    "south": 56.7200,
+    "east": 60.7800,
+    "west": 60.4300
+  },
+  "nodes": [
+    {
+      "id": "ru-ekb-sever",
+      "slug": "ekb-sever",
+      "name": "Север",
+      "type": "city_direction",
+      "city_id": "ru-ekb",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 56.9000,
+        "lng": 60.6100
+      }
+    },
+    {
+      "id": "ru-ekb-tsentr",
+      "slug": "ekb-tsentr",
+      "name": "Центр",
+      "type": "city_direction",
+      "city_id": "ru-ekb",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 56.8389,
+        "lng": 60.6057
+      }
+    },
+    {
+      "id": "ru-ekb-vostok",
+      "slug": "ekb-vostok",
+      "name": "Восток",
+      "type": "city_direction",
+      "city_id": "ru-ekb",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 56.8450,
+        "lng": 60.7000
+      }
+    },
+    {
+      "id": "ru-ekb-zapad",
+      "slug": "ekb-zapad",
+      "name": "Запад",
+      "type": "city_direction",
+      "city_id": "ru-ekb",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 56.8400,
+        "lng": 60.5200
+      }
+    },
+    {
+      "id": "ru-ekb-yug",
+      "slug": "ekb-yug",
+      "name": "Юг",
+      "type": "city_direction",
+      "city_id": "ru-ekb",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 56.7700,
+        "lng": 60.6200
+      }
+    },
+
+    {
+      "id": "ru-ekb-ordzhonikidzevskiy",
+      "slug": "ekb-ordzhonikidzevskiy",
+      "name": "Орджоникидзевский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-sever",
+      "coordinates": {
+        "lat": 56.9030,
+        "lng": 60.6140
+      }
+    },
+    {
+      "id": "ru-ekb-zheleznodorozhnyy",
+      "slug": "ekb-zheleznodorozhnyy",
+      "name": "Железнодорожный",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-sever",
+      "coordinates": {
+        "lat": 56.853034,
+        "lng": 60.599904
+      }
+    },
+    {
+      "id": "ru-ekb-kirovskiy",
+      "slug": "ekb-kirovskiy",
+      "name": "Кировский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-vostok",
+      "coordinates": {
+        "lat": 56.8550,
+        "lng": 60.6700
+      }
+    },
+    {
+      "id": "ru-ekb-oktyabrskiy",
+      "slug": "ekb-oktyabrskiy",
+      "name": "Октябрьский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-vostok",
+      "coordinates": {
+        "lat": 56.834500,
+        "lng": 60.650000
+      }
+    },
+    {
+      "id": "ru-ekb-leninskiy",
+      "slug": "ekb-leninskiy",
+      "name": "Ленинский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-tsentr",
+      "coordinates": {
+        "lat": 56.831773,
+        "lng": 60.601116
+      }
+    },
+    {
+      "id": "ru-ekb-verkh-isetskiy",
+      "slug": "ekb-verkh-isetskiy",
+      "name": "Верх-Исетский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-zapad",
+      "coordinates": {
+        "lat": 56.838000,
+        "lng": 60.560000
+      }
+    },
+    {
+      "id": "ru-ekb-chkalovskiy",
+      "slug": "ekb-chkalovskiy",
+      "name": "Чкаловский",
+      "type": "district",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-yug",
+      "coordinates": {
+        "lat": 56.7700,
+        "lng": 60.6200
+      }
+    },
+
+    {
+      "id": "ru-ekb-prospekt-kosmonavtov",
+      "slug": "ekb-metro-prospekt-kosmonavtov",
+      "name": "Проспект Космонавтов",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-ordzhonikidzevskiy",
+      "coordinates": {
+        "lat": 56.901670,
+        "lng": 60.614440
+      }
+    },
+    {
+      "id": "ru-ekb-uralmash",
+      "slug": "ekb-metro-uralmash",
+      "name": "Уралмаш",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-ordzhonikidzevskiy",
+      "coordinates": {
+        "lat": 56.888241,
+        "lng": 60.613179
+      }
+    },
+    {
+      "id": "ru-ekb-mashinostroiteley",
+      "slug": "ekb-metro-mashinostroiteley",
+      "name": "Машиностроителей",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-ordzhonikidzevskiy",
+      "coordinates": {
+        "lat": 56.878926,
+        "lng": 60.612023
+      }
+    },
+    {
+      "id": "ru-ekb-uralskaya",
+      "slug": "ekb-metro-uralskaya",
+      "name": "Уральская",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-zheleznodorozhnyy",
+      "coordinates": {
+        "lat": 56.858277,
+        "lng": 60.600478
+      }
+    },
+    {
+      "id": "ru-ekb-dinamo",
+      "slug": "ekb-metro-dinamo",
+      "name": "Динамо",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-zheleznodorozhnyy",
+      "coordinates": {
+        "lat": 56.847791,
+        "lng": 60.599329
+      }
+    },
+    {
+      "id": "ru-ekb-ploshchad-1905-goda",
+      "slug": "ekb-metro-ploshchad-1905-goda",
+      "name": "Площадь 1905 года",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-leninskiy",
+      "coordinates": {
+        "lat": 56.836667,
+        "lng": 60.599167
+      }
+    },
+    {
+      "id": "ru-ekb-geologicheskaya",
+      "slug": "ekb-metro-geologicheskaya",
+      "name": "Геологическая",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-leninskiy",
+      "coordinates": {
+        "lat": 56.826879,
+        "lng": 60.603064
+      }
+    },
+    {
+      "id": "ru-ekb-chkalovskaya",
+      "slug": "ekb-metro-chkalovskaya",
+      "name": "Чкаловская",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-chkalovskiy",
+      "coordinates": {
+        "lat": 56.808437,
+        "lng": 60.610046
+      }
+    },
+    {
+      "id": "ru-ekb-botanicheskaya",
+      "slug": "ekb-metro-botanicheskaya",
+      "name": "Ботаническая",
+      "type": "metro",
+      "city_id": "ru-ekb",
+      "parent_id": "ru-ekb-chkalovskiy",
+      "coordinates": {
+        "lat": 56.796714,
+        "lng": 60.632397
+      }
+    }
+  ]
+}

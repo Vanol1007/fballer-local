@@ -1,0 +1,392 @@
+.players {
+	background: #f0f0f0;
+	padding-top: 80px;
+	padding-bottom: 41px;
+}
+
+.single-news__content-inner .games-row__title {
+	color: #2B2B2B;
+	margin-bottom: 25px;
+}
+
+.games-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	gap: 78px;
+}
+
+.games-row .marked-list {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.games-row__col:first-child {
+	max-width: 262px;
+}
+
+.games-row .marked-list__icon svg {
+	max-width: 100%;
+}
+
+.games-row a.marked-list__text {
+	margin-bottom: 0;
+	color: #f00;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.games-row .secondary-btn {
+	margin-top: 15px;
+	width: 100%;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    min-width: 100%;
+    background: #e52f24;
+    color: #fff;
+    font-weight: 500;
+}
+
+.games-row .secondary-btn:hover {
+	background-color: #C9C9C9;
+}
+
+.place-detail-team p:last-child {
+	margin-bottom: 0;
+}
+
+.single-team-page,
+.single-game-page,
+.single-player-page {
+	padding-top: 52px;
+	padding-bottom: 72px;
+}
+
+.single-team-page .single-news__content-inner,
+.single-game-page .single-news__content-inner,
+.single-player-page .single-news__content-inner {
+	position: relative;
+	z-index: 1;
+}
+
+.team-single,
+.game-single {
+	display: grid;
+	grid-template-columns: minmax(0, 35%) minmax(0, 65%);
+	gap: 64px;
+	align-items: start;
+}
+
+.team-single__summary,
+.game-single__summary {
+	max-width: none;
+}
+
+.team-single__title,
+.game-single__title {
+	margin: 0 0 36px;
+	color: #2B2B2B !important;
+	font-family: var(--title-font);
+	font-size: 56px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 1.08;
+	text-transform: uppercase;
+}
+
+.team-single__meta,
+.game-single__meta {
+	list-style: none;
+	margin: 0;
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.team-single__meta-item,
+.game-single__meta-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+}
+
+.team-single__meta-icon,
+.game-single__meta-icon {
+	width: 21px;
+	height: 21px;
+	margin-top: 1px;
+	flex: 0 0 21px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.team-single__meta-icon img,
+.game-single__meta-icon img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.team-single__meta-text,
+.game-single__meta-text {
+	color: #4E4E4E;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.single-game-page .single-news__content-inner a.game-single__meta-link {
+	display: inline !important;
+	color: #E52F24 !important;
+	font-size: 16px !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	line-height: 1.4 !important;
+	margin-bottom: 0 !important;
+	text-decoration: underline !important;
+}
+
+.single-team-page .single-news__content-inner a.team-single__button,
+.single-player-page .single-news__content-inner a.team-single__button,
+.single-game-page .single-news__content-inner a.game-single__button {
+	margin-top: 28px;
+	width: 193px !important;
+	max-width: 193px !important;
+	min-width: 193px !important;
+	height: 36px;
+	padding-left: 22px;
+	padding-right: 22px;
+	justify-content: center;
+	display: inline-flex !important;
+	color: #fff !important;
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	line-height: normal !important;
+	margin-bottom: 0 !important;
+	text-transform: none;
+}
+
+.team-single__content,
+.game-single__content {
+	max-width: 720px;
+	color: #4E4E4E;
+}
+
+.team-single__description,
+.team-single__description p,
+.team-single__description li,
+.team-single__description a,
+.game-single__description,
+.game-single__description p,
+.game-single__description li,
+.game-single__description a {
+	color: #4E4E4E;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.45;
+}
+
+.team-single__description p {
+	margin-bottom: 22px;
+}
+
+.team-single__description ul,
+.team-single__description ol,
+.game-single__description ul,
+.game-single__description ol {
+	padding-left: 22px;
+	margin-bottom: 22px;
+}
+
+.single-team-related,
+.single-game-related,
+.single-player-related {
+	background: #f2f2f2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.single-team-related .section-title,
+.single-game-related .section-title,
+.single-player-related .section-title {
+	margin-bottom: 16px;
+}
+
+.single-team-related .player-items,
+.single-game-related .player-items,
+.single-player-related .player-items {
+	margin-top: 16px;
+}
+
+.single-team-related .player-item,
+.single-game-related .player-item,
+.single-player-related .player-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.single-team-related .player-item__body,
+.single-game-related .player-item__body,
+.single-player-related .player-item__body {
+	height: 100% !important;
+}
+
+.single-team-related .player-item__description,
+.single-game-related .player-item__description,
+.single-player-related .player-item__description {
+	margin-bottom: 0 !important;
+}
+
+.single-team-related .player-item__footer,
+.single-game-related .player-item__footer,
+.single-player-related .player-item__footer {
+	margin-top: 31px;
+}
+
+.single-team-related .player-item--team .player-item__footer,
+.single-game-related .player-item--game .player-item__footer,
+.single-player-related .player-item--team .player-item__footer,
+.single-player-related .player-item--game .player-item__footer {
+	margin-top: 24px;
+}
+
+body.single-teams .footer,
+body.single-games .footer,
+body.single-players .footer {
+	margin-top: 0;
+}
+
+@media screen and (min-width: 577px) {
+	.games-row .secondary-btn--mobile {
+		display: none !important;
+	}
+
+}
+
+@media screen and (max-width: 1023px) {
+	.single-team-page,
+	.single-game-page,
+	.single-player-page {
+		padding-top: 40px;
+		padding-bottom: 48px;
+	}
+
+	.single-team-page > .container,
+	.single-game-page > .container,
+	.single-player-page > .container {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.team-single,
+	.game-single {
+		grid-template-columns: 1fr;
+		gap: 36px;
+	}
+
+	.team-single__summary,
+	.team-single__content,
+	.game-single__summary,
+	.game-single__content {
+		max-width: 100%;
+	}
+
+	.single-team-related .player-items,
+	.single-game-related .player-items,
+	.single-player-related .player-items {
+		justify-content: flex-start !important;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.games-row {
+		gap: 23px;
+	}
+	
+	.games-row__col {
+		width: 100%;
+		max-width: 100% !important;
+	}
+	
+	.games-row .secondary-btn:not(.secondary-btn--mobile) {
+		display: none !important;
+	}
+	
+	.games-row .secondary-btn--mobile {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	
+	.games-row .place-detail__address {
+		margin-bottom: 0;
+	}
+	
+	.single-news__content-inner .games-row__title {
+		margin-bottom: 21px;
+	}
+
+	.single-team-page,
+	.single-game-page,
+	.single-player-page {
+		padding-top: 36px;
+		padding-bottom: 44px;
+	}
+
+	.single-team-page > .container,
+	.single-game-page > .container,
+	.single-player-page > .container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.team-single,
+	.game-single {
+		grid-template-columns: 1fr;
+		gap: 28px;
+	}
+
+	.team-single__summary,
+	.team-single__content,
+	.game-single__summary,
+	.game-single__content {
+		max-width: 100%;
+	}
+
+	.team-single__title,
+	.game-single__title {
+		font-size: 36px;
+		margin-bottom: 24px;
+	}
+
+	.single-team-page .single-news__content-inner a.team-single__button,
+	.single-player-page .single-news__content-inner a.team-single__button,
+	.single-game-page .single-news__content-inner a.game-single__button {
+		min-width: 193px !important;
+	}
+
+	.single-team-related .player-items,
+	.single-game-related .player-items,
+	.single-player-related .player-items {
+		justify-content: flex-start !important;
+	}
+
+	.team-single__meta-text,
+	.team-single__description,
+	.team-single__description p,
+	.team-single__description li,
+	.team-single__description a,
+	.game-single__meta-text,
+	.game-single__description,
+	.game-single__description p,
+	.game-single__description li,
+	.game-single__description a {
+		font-size: 14px;
+	}
+}

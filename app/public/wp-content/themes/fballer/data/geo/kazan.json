@@ -1,0 +1,450 @@
+{
+  "id": "ru-kazan",
+  "slug": "kazan",
+  "name": "Казань",
+  "type": "city",
+  "timezone": "Europe/Moscow",
+  "flags": {
+    "has_directions": true,
+    "has_admin_areas": true,
+    "has_districts": true,
+    "has_metro": true
+  },
+  "coordinates": {
+    "lat": 55.7961,
+    "lng": 49.1064
+  },
+  "map_zoom": 11,
+  "center": {
+    "lat": 55.7887,
+    "lng": 49.1221
+  },
+  "bounds": {
+    "north": 55.92,
+    "south": 55.68,
+    "east": 49.32,
+    "west": 48.95
+  },
+  "nodes": [
+    {
+      "id": "ru-kazan-sever",
+      "slug": "kazan-sever",
+      "name": "Север",
+      "type": "city_direction",
+      "city_id": "ru-kazan",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.85,
+        "lng": 49.08
+      }
+    },
+    {
+      "id": "ru-kazan-tsentr",
+      "slug": "kazan-tsentr",
+      "name": "Центр",
+      "type": "city_direction",
+      "city_id": "ru-kazan",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.787433,
+        "lng": 49.125067
+      }
+    },
+    {
+      "id": "ru-kazan-vostok",
+      "slug": "kazan-vostok",
+      "name": "Восток",
+      "type": "city_direction",
+      "city_id": "ru-kazan",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.7655,
+        "lng": 49.1653
+      }
+    },
+    {
+      "id": "ru-kazan-yug",
+      "slug": "kazan-yug",
+      "name": "Юг",
+      "type": "city_direction",
+      "city_id": "ru-kazan",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.73,
+        "lng": 49.18
+      }
+    },
+    {
+      "id": "ru-kazan-aviastroitelnyy",
+      "slug": "kazan-aviastroitelnyy",
+      "name": "Авиастроительный",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-sever",
+      "coordinates": {
+        "lat": 55.865,
+        "lng": 49.086
+      }
+    },
+    {
+      "id": "ru-kazan-vahitovskiy",
+      "slug": "kazan-vahitovskiy",
+      "name": "Вахитовский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-tsentr",
+      "coordinates": {
+        "lat": 55.787433,
+        "lng": 49.125067
+      }
+    },
+    {
+      "id": "ru-kazan-kirovskiy",
+      "slug": "kazan-kirovskiy",
+      "name": "Кировский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-sever",
+      "coordinates": {
+        "lat": 55.8250,
+        "lng": 48.9900
+      }
+    },
+    {
+      "id": "ru-kazan-moskovskiy",
+      "slug": "kazan-moskovskiy",
+      "name": "Московский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-sever",
+      "coordinates": {
+        "lat": 55.831275,
+        "lng": 49.086475
+      }
+    },
+    {
+      "id": "ru-kazan-novo-savinovskiy",
+      "slug": "kazan-novo-savinovskiy",
+      "name": "Ново-Савиновский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-vostok",
+      "coordinates": {
+        "lat": 55.8210,
+        "lng": 49.1470
+      }
+    },
+    {
+      "id": "ru-kazan-privolzhskiy",
+      "slug": "kazan-privolzhskiy",
+      "name": "Приволжский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-yug",
+      "coordinates": {
+        "lat": 55.742,
+        "lng": 49.182
+      }
+    },
+    {
+      "id": "ru-kazan-sovetskiy",
+      "slug": "kazan-sovetskiy",
+      "name": "Советский",
+      "type": "admin_area",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-vostok",
+      "coordinates": {
+        "lat": 55.7655,
+        "lng": 49.1653
+      }
+    },
+    {
+      "id": "ru-kazan-karavaevo",
+      "slug": "kazan-karavaevo",
+      "name": "Караваево",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-aviastroitelnyy",
+      "coordinates": {
+        "lat": 55.868,
+        "lng": 49.083
+      }
+    },
+    {
+      "id": "ru-kazan-sotsgorod",
+      "slug": "kazan-sotsgorod",
+      "name": "Соцгород",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-aviastroitelnyy",
+      "coordinates": {
+        "lat": 55.8550,
+        "lng": 49.0900
+      }
+    },
+    {
+      "id": "ru-kazan-kremlevskaya-damba",
+      "slug": "kazan-kremlevskaya-damba",
+      "name": "Центр / Кремль",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-vahitovskiy",
+      "coordinates": {
+        "lat": 55.7957,
+        "lng": 49.1087
+      }
+    },
+    {
+      "id": "ru-kazan-tukaya",
+      "slug": "kazan-tukaya",
+      "name": "Площадь Тукая",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-vahitovskiy",
+      "coordinates": {
+        "lat": 55.7867,
+        "lng": 49.1245
+      }
+    },
+    {
+      "id": "ru-kazan-sukonnaya-sloboda",
+      "slug": "kazan-sukonnaya-sloboda",
+      "name": "Суконная слобода",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-vahitovskiy",
+      "coordinates": {
+        "lat": 55.7799,
+        "lng": 49.142
+      }
+    },
+    {
+      "id": "ru-kazan-zalesnyy",
+      "slug": "kazan-zalesnyy",
+      "name": "Залесный",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-kirovskiy",
+      "coordinates": {
+        "lat": 55.8470,
+        "lng": 48.8940
+      }
+    },
+    {
+      "id": "ru-kazan-yagodnaya-sloboda",
+      "slug": "kazan-yagodnaya-sloboda",
+      "name": "Ягодная слобода",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-moskovskiy",
+      "coordinates": {
+        "lat": 55.82255,
+        "lng": 49.09045
+      }
+    },
+    {
+      "id": "ru-kazan-severnyy-vokzal-district",
+      "slug": "kazan-severnyy-vokzal-district",
+      "name": "Северный вокзал",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-moskovskiy",
+      "coordinates": {
+        "lat": 55.84,
+        "lng": 49.0825
+      }
+    },
+    {
+      "id": "ru-kazan-kvartal",
+      "slug": "kazan-kvartal",
+      "name": "Квартал",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-novo-savinovskiy",
+      "coordinates": {
+        "lat": 55.8230,
+        "lng": 49.1490
+      }
+    },
+    {
+      "id": "ru-kazan-gorki",
+      "slug": "kazan-gorki",
+      "name": "Горки",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-privolzhskiy",
+      "coordinates": {
+        "lat": 55.75,
+        "lng": 49.201
+      }
+    },
+    {
+      "id": "ru-kazan-prospekt-pobedy-district",
+      "slug": "kazan-prospekt-pobedy-district",
+      "name": "Проспект Победы",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-privolzhskiy",
+      "coordinates": {
+        "lat": 55.749,
+        "lng": 49.2076
+      }
+    },
+    {
+      "id": "ru-kazan-dubrava",
+      "slug": "kazan-dubrava",
+      "name": "Дубрава",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-privolzhskiy",
+      "coordinates": {
+        "lat": 55.742,
+        "lng": 49.2196
+      }
+    },
+    {
+      "id": "ru-kazan-ametevo",
+      "slug": "kazan-ametevo",
+      "name": "Аметьево",
+      "type": "district",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-sovetskiy",
+      "coordinates": {
+        "lat": 55.7655,
+        "lng": 49.1653
+      }
+    },
+    {
+      "id": "ru-kazan-aviastroitelnaya",
+      "slug": "kazan-metro-aviastroitelnaya",
+      "name": "Авиастроительная",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-karavaevo",
+      "coordinates": {
+        "lat": 55.8692,
+        "lng": 49.0856
+      }
+    },
+    {
+      "id": "ru-kazan-severnyy-vokzal",
+      "slug": "kazan-metro-severnyy-vokzal",
+      "name": "Северный вокзал",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-severnyy-vokzal-district",
+      "coordinates": {
+        "lat": 55.84,
+        "lng": 49.0825
+      }
+    },
+    {
+      "id": "ru-kazan-yashlek",
+      "slug": "kazan-metro-yashlek",
+      "name": "Яшьлек",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-yagodnaya-sloboda",
+      "coordinates": {
+        "lat": 55.8275,
+        "lng": 49.0827
+      }
+    },
+    {
+      "id": "ru-kazan-kozya-sloboda",
+      "slug": "kazan-metro-kozya-sloboda",
+      "name": "Козья слобода",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-yagodnaya-sloboda",
+      "coordinates": {
+        "lat": 55.8176,
+        "lng": 49.0982
+      }
+    },
+    {
+      "id": "ru-kazan-kremlevskaya",
+      "slug": "kazan-metro-kremlevskaya",
+      "name": "Кремлёвская",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-kremlevskaya-damba",
+      "coordinates": {
+        "lat": 55.7957,
+        "lng": 49.1087
+      }
+    },
+    {
+      "id": "ru-kazan-ploshchad-gabdully-tukaya",
+      "slug": "kazan-metro-ploshchad-gabdully-tukaya",
+      "name": "Площадь Габдуллы Тукая",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-tukaya",
+      "coordinates": {
+        "lat": 55.7867,
+        "lng": 49.1245
+      }
+    },
+    {
+      "id": "ru-kazan-sukonnaya-sloboda-metro",
+      "slug": "kazan-metro-sukonnaya-sloboda",
+      "name": "Суконная слобода",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-sukonnaya-sloboda",
+      "coordinates": {
+        "lat": 55.7799,
+        "lng": 49.142
+      }
+    },
+    {
+      "id": "ru-kazan-ametevo-metro",
+      "slug": "kazan-metro-ametevo",
+      "name": "Аметьево",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-ametevo",
+      "coordinates": {
+        "lat": 55.7655,
+        "lng": 49.1653
+      }
+    },
+    {
+      "id": "ru-kazan-gorki-metro",
+      "slug": "kazan-metro-gorki",
+      "name": "Горки",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-gorki",
+      "coordinates": {
+        "lat": 55.7498,
+        "lng": 49.2077
+      }
+    },
+    {
+      "id": "ru-kazan-prospekt-pobedy",
+      "slug": "kazan-metro-prospekt-pobedy",
+      "name": "Проспект Победы",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-prospekt-pobedy-district",
+      "coordinates": {
+        "lat": 55.749,
+        "lng": 49.2076
+      }
+    },
+    {
+      "id": "ru-kazan-dubravnaya",
+      "slug": "kazan-metro-dubravnaya",
+      "name": "Дубравная",
+      "type": "metro",
+      "city_id": "ru-kazan",
+      "parent_id": "ru-kazan-dubrava",
+      "coordinates": {
+        "lat": 55.742,
+        "lng": 49.2196
+      }
+    }
+  ]
+}

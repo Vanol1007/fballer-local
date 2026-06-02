@@ -1,0 +1,3186 @@
+{
+  "id": "ru-moscow",
+  "slug": "moskva",
+  "name": "Москва",
+  "type": "city",
+  "timezone": "Europe/Moscow",
+  "flags": {
+    "has_directions": false,
+    "has_admin_areas": true,
+    "has_districts": true,
+    "has_metro": true
+  },
+  "coordinates": {
+    "lat": 55.7558,
+    "lng": 37.6176
+  },
+  "map_zoom": 10,
+  "center": {
+    "lat": 55.7558,
+    "lng": 37.6176
+  },
+  "bounds": {
+    "north": 56.021,
+    "south": 55.4899,
+    "east": 37.9674,
+    "west": 37.3193
+  },
+  "nodes": [
+    {
+      "id": "ru-moscow-cao",
+      "slug": "moskva-cao",
+      "name": "ЦАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.7539,
+        "lng": 37.6208
+      }
+    },
+    {
+      "id": "ru-moscow-sao",
+      "slug": "moskva-sao",
+      "name": "САО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.822357,
+        "lng": 37.524809
+      }
+    },
+    {
+      "id": "ru-moscow-svao",
+      "slug": "moskva-svao",
+      "name": "СВАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.856,
+        "lng": 37.632
+      }
+    },
+    {
+      "id": "ru-moscow-vao",
+      "slug": "moskva-vao",
+      "name": "ВАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.783212,
+        "lng": 37.759119
+      }
+    },
+    {
+      "id": "ru-moscow-yuvao",
+      "slug": "moskva-yuvao",
+      "name": "ЮВАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.705327,
+        "lng": 37.75575
+      }
+    },
+    {
+      "id": "ru-moscow-yao",
+      "slug": "moskva-yao",
+      "name": "ЮАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.655062,
+        "lng": 37.664023
+      }
+    },
+    {
+      "id": "ru-moscow-yuzao",
+      "slug": "moskva-yuzao",
+      "name": "ЮЗАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.633394,
+        "lng": 37.549772
+      }
+    },
+    {
+      "id": "ru-moscow-zao",
+      "slug": "moskva-zao",
+      "name": "ЗАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.703655,
+        "lng": 37.451066
+      }
+    },
+    {
+      "id": "ru-moscow-szao",
+      "slug": "moskva-szao",
+      "name": "СЗАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.823075,
+        "lng": 37.439438
+      }
+    },
+    {
+      "id": "ru-moscow-zelao",
+      "slug": "moskva-zelao",
+      "name": "ЗелАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.9825,
+        "lng": 37.1815
+      }
+    },
+    {
+      "id": "ru-moscow-nao",
+      "slug": "moskva-nao",
+      "name": "НАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.5809,
+        "lng": 37.43865
+      }
+    },
+    {
+      "id": "ru-moscow-tao",
+      "slug": "moskva-tao",
+      "name": "ТАО",
+      "type": "admin_area",
+      "city_id": "ru-moscow",
+      "parent_id": "",
+      "coordinates": {
+        "lat": 55.4846,
+        "lng": 37.3077
+      }
+    },
+    {
+      "id": "ru-moscow-arbat",
+      "slug": "moskva-arbat",
+      "name": "Арбат",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.75005,
+        "lng": 37.5929
+      }
+    },
+    {
+      "id": "ru-moscow-basmanniy",
+      "slug": "moskva-basmanniy",
+      "name": "Басманный",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.7655,
+        "lng": 37.6716
+      }
+    },
+    {
+      "id": "ru-moscow-zamoskvoreche",
+      "slug": "moskva-zamoskvoreche",
+      "name": "Замоскворечье",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.73795,
+        "lng": 37.631567
+      }
+    },
+    {
+      "id": "ru-moscow-krasnoselskiy",
+      "slug": "moskva-krasnoselskiy",
+      "name": "Красносельский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.76853,
+        "lng": 37.64393
+      }
+    },
+    {
+      "id": "ru-moscow-meshchanskiy",
+      "slug": "moskva-meshchanskiy",
+      "name": "Мещанский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.7781,
+        "lng": 37.625617
+      }
+    },
+    {
+      "id": "ru-moscow-presnenskiy",
+      "slug": "moskva-presnenskiy",
+      "name": "Пресненский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.755708,
+        "lng": 37.554742
+      }
+    },
+    {
+      "id": "ru-moscow-taganskiy",
+      "slug": "moskva-taganskiy",
+      "name": "Таганский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.736775,
+        "lng": 37.659863
+      }
+    },
+    {
+      "id": "ru-moscow-tverskoy",
+      "slug": "moskva-tverskoy",
+      "name": "Тверской",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.7643,
+        "lng": 37.6057
+      }
+    },
+    {
+      "id": "ru-moscow-khamovniki",
+      "slug": "moskva-khamovniki",
+      "name": "Хамовники",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.732737,
+        "lng": 37.584775
+      }
+    },
+    {
+      "id": "ru-moscow-yakimanka",
+      "slug": "moskva-yakimanka",
+      "name": "Якиманка",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cao",
+      "coordinates": {
+        "lat": 55.729283,
+        "lng": 37.61215
+      }
+    },
+    {
+      "id": "ru-moscow-aeroport",
+      "slug": "moskva-aeroport",
+      "name": "Аэропорт",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.8003,
+        "lng": 37.5329
+      }
+    },
+    {
+      "id": "ru-moscow-begovoy",
+      "slug": "moskva-begovoy",
+      "name": "Беговой",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.786133,
+        "lng": 37.566467
+      }
+    },
+    {
+      "id": "ru-moscow-voykovskiy",
+      "slug": "moskva-voykovskiy",
+      "name": "Войковский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.819,
+        "lng": 37.498
+      }
+    },
+    {
+      "id": "ru-moscow-golovinskiy",
+      "slug": "moskva-golovinskiy",
+      "name": "Головинский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.8398,
+        "lng": 37.4867
+      }
+    },
+    {
+      "id": "ru-moscow-dmitrovskiy",
+      "slug": "moskva-dmitrovskiy",
+      "name": "Дмитровский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.822357,
+        "lng": 37.524809
+      }
+    },
+    {
+      "id": "ru-moscow-levoberezhniy",
+      "slug": "moskva-levoberezhniy",
+      "name": "Левобережный",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.860366,
+        "lng": 37.476244
+      }
+    },
+    {
+      "id": "ru-moscow-savelovskiy",
+      "slug": "moskva-savelovskiy",
+      "name": "Савёловский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.79305,
+        "lng": 37.58775
+      }
+    },
+    {
+      "id": "ru-moscow-sokol",
+      "slug": "moskva-sokol",
+      "name": "Сокол",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.8051,
+        "lng": 37.5153
+      }
+    },
+    {
+      "id": "ru-moscow-timiryazevskiy",
+      "slug": "moskva-timiryazevskiy",
+      "name": "Тимирязевский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.8183,
+        "lng": 37.5777
+      }
+    },
+    {
+      "id": "ru-moscow-khovrino",
+      "slug": "moskva-khovrino",
+      "name": "Ховрино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sao",
+      "coordinates": {
+        "lat": 55.879167,
+        "lng": 37.482222
+      }
+    },
+    {
+      "id": "ru-moscow-alekseevskiy",
+      "slug": "moskva-alekseevskiy",
+      "name": "Алексеевский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.8088,
+        "lng": 37.639
+      }
+    },
+    {
+      "id": "ru-moscow-babushkinskiy",
+      "slug": "moskva-babushkinskiy",
+      "name": "Бабушкинский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.8694,
+        "lng": 37.6644
+      }
+    },
+    {
+      "id": "ru-moscow-bibirevo",
+      "slug": "moskva-bibirevo",
+      "name": "Бибирево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.8838,
+        "lng": 37.6034
+      }
+    },
+    {
+      "id": "ru-moscow-butyrskiy",
+      "slug": "moskva-butyrskiy",
+      "name": "Бутырский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.856,
+        "lng": 37.632
+      }
+    },
+    {
+      "id": "ru-moscow-lianozovo",
+      "slug": "moskva-lianozovo",
+      "name": "Лианозово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.898,
+        "lng": 37.587
+      }
+    },
+    {
+      "id": "ru-moscow-marfino",
+      "slug": "moskva-marfino",
+      "name": "Марфино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.856,
+        "lng": 37.632
+      }
+    },
+    {
+      "id": "ru-moscow-maryina-roshcha",
+      "slug": "moskva-maryina-roshcha",
+      "name": "Марьина Роща",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.7961,
+        "lng": 37.6185
+      }
+    },
+    {
+      "id": "ru-moscow-ostankinskiy",
+      "slug": "moskva-ostankinskiy",
+      "name": "Останкинский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.8211,
+        "lng": 37.6411
+      }
+    },
+    {
+      "id": "ru-moscow-otradnoe",
+      "slug": "moskva-otradnoe",
+      "name": "Отрадное",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.855325,
+        "lng": 37.597975
+      }
+    },
+    {
+      "id": "ru-moscow-sviblovo",
+      "slug": "moskva-sviblovo",
+      "name": "Свиблово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-svao",
+      "coordinates": {
+        "lat": 55.850225,
+        "lng": 37.6455
+      }
+    },
+    {
+      "id": "ru-moscow-bogorodskoe",
+      "slug": "moskva-bogorodskoe",
+      "name": "Богородское",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.816,
+        "lng": 37.73575
+      }
+    },
+    {
+      "id": "ru-moscow-golianovo",
+      "slug": "moskva-golianovo",
+      "name": "Гольяново",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.8094,
+        "lng": 37.7986
+      }
+    },
+    {
+      "id": "ru-moscow-izmaylovo",
+      "slug": "moskva-izmaylovo",
+      "name": "Измайлово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.7904,
+        "lng": 37.7771
+      }
+    },
+    {
+      "id": "ru-moscow-novogireevo",
+      "slug": "moskva-novogireevo",
+      "name": "Новогиреево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.7517,
+        "lng": 37.8166
+      }
+    },
+    {
+      "id": "ru-moscow-perovo",
+      "slug": "moskva-perovo",
+      "name": "Перово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.7511,
+        "lng": 37.7866
+      }
+    },
+    {
+      "id": "ru-moscow-preobrazhenskoe",
+      "slug": "moskva-preobrazhenskoe",
+      "name": "Преображенское",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.80005,
+        "lng": 37.72995
+      }
+    },
+    {
+      "id": "ru-moscow-sokolinaya-gora",
+      "slug": "moskva-sokolinaya-gora",
+      "name": "Соколиная Гора",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.75825,
+        "lng": 37.74815
+      }
+    },
+    {
+      "id": "ru-moscow-sokolniki",
+      "slug": "moskva-sokolniki",
+      "name": "Сокольники",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vao",
+      "coordinates": {
+        "lat": 55.7888,
+        "lng": 37.6802
+      }
+    },
+    {
+      "id": "ru-moscow-vykhino-zhulebino",
+      "slug": "moskva-vykhino-zhulebino",
+      "name": "Выхино-Жулебино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.7008,
+        "lng": 37.8423
+      }
+    },
+    {
+      "id": "ru-moscow-kuzminki",
+      "slug": "moskva-kuzminki",
+      "name": "Кузьминки",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.7056,
+        "lng": 37.7656
+      }
+    },
+    {
+      "id": "ru-moscow-lefortovo",
+      "slug": "moskva-lefortovo",
+      "name": "Лефортово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.758586,
+        "lng": 37.710816
+      }
+    },
+    {
+      "id": "ru-moscow-liublino",
+      "slug": "moskva-liublino",
+      "name": "Люблино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.6758,
+        "lng": 37.7618
+      }
+    },
+    {
+      "id": "ru-moscow-marino",
+      "slug": "moskva-marino",
+      "name": "Марьино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.65485,
+        "lng": 37.7468
+      }
+    },
+    {
+      "id": "ru-moscow-nizhegorodskiy",
+      "slug": "moskva-nizhegorodskiy",
+      "name": "Нижегородский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.7323,
+        "lng": 37.728355
+      }
+    },
+    {
+      "id": "ru-moscow-pechatniki",
+      "slug": "moskva-pechatniki",
+      "name": "Печатники",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.6934,
+        "lng": 37.727
+      }
+    },
+    {
+      "id": "ru-moscow-ryazanskiy",
+      "slug": "moskva-ryazanskiy",
+      "name": "Рязанский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.717805,
+        "lng": 37.787483
+      }
+    },
+    {
+      "id": "ru-moscow-tekstilshchiki",
+      "slug": "moskva-tekstilshchiki",
+      "name": "Текстильщики",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuvao",
+      "coordinates": {
+        "lat": 55.7088,
+        "lng": 37.7316
+      }
+    },
+    {
+      "id": "ru-moscow-brateevo",
+      "slug": "moskva-brateevo",
+      "name": "Братеево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.655062,
+        "lng": 37.664023
+      }
+    },
+    {
+      "id": "ru-moscow-danilovskiy",
+      "slug": "moskva-danilovskiy",
+      "name": "Даниловский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.703,
+        "lng": 37.649333
+      }
+    },
+    {
+      "id": "ru-moscow-donskoy",
+      "slug": "moskva-donskoy",
+      "name": "Донской",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.7077,
+        "lng": 37.5861
+      }
+    },
+    {
+      "id": "ru-moscow-moskvoreche-saburovo",
+      "slug": "moskva-moskvoreche-saburovo",
+      "name": "Москворечье-Сабурово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.6358,
+        "lng": 37.6564
+      }
+    },
+    {
+      "id": "ru-moscow-nagatino-sadovniki",
+      "slug": "moskva-nagatino-sadovniki",
+      "name": "Нагатино-Садовники",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.66905,
+        "lng": 37.63555
+      }
+    },
+    {
+      "id": "ru-moscow-nagatinskiy-zaton",
+      "slug": "moskva-nagatinskiy-zaton",
+      "name": "Нагатинский Затон",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.6785,
+        "lng": 37.6638
+      }
+    },
+    {
+      "id": "ru-moscow-orekhovo-borisovo-severnoe",
+      "slug": "moskva-orekhovo-borisovo-severnoe",
+      "name": "Орехово-Борисово Северное",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.612,
+        "lng": 37.70675
+      }
+    },
+    {
+      "id": "ru-moscow-orekhovo-borisovo-yuzhnoe",
+      "slug": "moskva-orekhovo-borisovo-yuzhnoe",
+      "name": "Орехово-Борисово Южное",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.61305,
+        "lng": 37.74485
+      }
+    },
+    {
+      "id": "ru-moscow-tsaritsyno",
+      "slug": "moskva-tsaritsyno",
+      "name": "Царицыно",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.6214,
+        "lng": 37.6694
+      }
+    },
+    {
+      "id": "ru-moscow-chertanovo-tsentralnoe",
+      "slug": "moskva-chertanovo-tsentralnoe",
+      "name": "Чертаново Центральное",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yao",
+      "coordinates": {
+        "lat": 55.655062,
+        "lng": 37.664023
+      }
+    },
+    {
+      "id": "ru-moscow-akademicheskiy",
+      "slug": "moskva-akademicheskiy",
+      "name": "Академический",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.6877,
+        "lng": 37.5733
+      }
+    },
+    {
+      "id": "ru-moscow-gagarinskiy",
+      "slug": "moskva-gagarinskiy",
+      "name": "Гагаринский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.7077,
+        "lng": 37.5861
+      }
+    },
+    {
+      "id": "ru-moscow-zyuzino",
+      "slug": "moskva-zyuzino",
+      "name": "Зюзино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.633394,
+        "lng": 37.549772
+      }
+    },
+    {
+      "id": "ru-moscow-konkovo",
+      "slug": "moskva-konkovo",
+      "name": "Коньково",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.63805,
+        "lng": 37.52225
+      }
+    },
+    {
+      "id": "ru-moscow-obruchevskiy",
+      "slug": "moskva-obruchevskiy",
+      "name": "Обручевский",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.65775,
+        "lng": 37.543
+      }
+    },
+    {
+      "id": "ru-moscow-severnoe-butovo",
+      "slug": "moskva-severnoe-butovo",
+      "name": "Северное Бутово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.56915,
+        "lng": 37.5768
+      }
+    },
+    {
+      "id": "ru-moscow-teplyy-stan",
+      "slug": "moskva-teplyy-stan",
+      "name": "Тёплый Стан",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.6191,
+        "lng": 37.5082
+      }
+    },
+    {
+      "id": "ru-moscow-cheremushki",
+      "slug": "moskva-cheremushki",
+      "name": "Черёмушки",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.6741,
+        "lng": 37.55855
+      }
+    },
+    {
+      "id": "ru-moscow-yuzhnoe-butovo",
+      "slug": "moskva-yuzhnoe-butovo",
+      "name": "Южное Бутово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.54335,
+        "lng": 37.53605
+      }
+    },
+    {
+      "id": "ru-moscow-yasenevo",
+      "slug": "moskva-yasenevo",
+      "name": "Ясенево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzao",
+      "coordinates": {
+        "lat": 55.60365,
+        "lng": 37.5437
+      }
+    },
+    {
+      "id": "ru-moscow-dorogomilovo",
+      "slug": "moskva-dorogomilovo",
+      "name": "Дорогомилово",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.741467,
+        "lng": 37.55655
+      }
+    },
+    {
+      "id": "ru-moscow-krylatskoe",
+      "slug": "moskva-krylatskoe",
+      "name": "Крылатское",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.7567,
+        "lng": 37.4081
+      }
+    },
+    {
+      "id": "ru-moscow-kuntsevo",
+      "slug": "moskva-kuntsevo",
+      "name": "Кунцево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.7408,
+        "lng": 37.4168
+      }
+    },
+    {
+      "id": "ru-moscow-novo-peredelkino",
+      "slug": "moskva-novo-peredelkino",
+      "name": "Ново-Переделкино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.63675,
+        "lng": 37.34495
+      }
+    },
+    {
+      "id": "ru-moscow-ochakovo-matveevskoe",
+      "slug": "moskva-ochakovo-matveevskoe",
+      "name": "Очаково-Матвеевское",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.670448,
+        "lng": 37.449525
+      }
+    },
+    {
+      "id": "ru-moscow-ramenki",
+      "slug": "moskva-ramenki",
+      "name": "Раменки",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.709667,
+        "lng": 37.503667
+      }
+    },
+    {
+      "id": "ru-moscow-solntsevo",
+      "slug": "moskva-solntsevo",
+      "name": "Солнцево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.654415,
+        "lng": 37.404146
+      }
+    },
+    {
+      "id": "ru-moscow-troparevo-nikulino",
+      "slug": "moskva-troparevo-nikulino",
+      "name": "Тропарёво-Никулино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.6548,
+        "lng": 37.4779
+      }
+    },
+    {
+      "id": "ru-moscow-filevskiy-park",
+      "slug": "moskva-filevskiy-park",
+      "name": "Филёвский Парк",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.74135,
+        "lng": 37.490775
+      }
+    },
+    {
+      "id": "ru-moscow-fili-davydkovo",
+      "slug": "moskva-fili-davydkovo",
+      "name": "Фили-Давыдково",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zao",
+      "coordinates": {
+        "lat": 55.73015,
+        "lng": 37.45825
+      }
+    },
+    {
+      "id": "ru-moscow-khoroshevo-mnevniki",
+      "slug": "moskva-khoroshevo-mnevniki",
+      "name": "Хорошёво-Мнёвники",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.777225,
+        "lng": 37.5159
+      }
+    },
+    {
+      "id": "ru-moscow-shchukino",
+      "slug": "moskva-shchukino",
+      "name": "Щукино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.80105,
+        "lng": 37.4788
+      }
+    },
+    {
+      "id": "ru-moscow-pokrovskoe-streshnevo",
+      "slug": "moskva-pokrovskoe-streshnevo",
+      "name": "Покровское-Стрешнево",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.82245,
+        "lng": 37.436
+      }
+    },
+    {
+      "id": "ru-moscow-severnoe-tushino",
+      "slug": "moskva-severnoe-tushino",
+      "name": "Северное Тушино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.8607,
+        "lng": 37.4364
+      }
+    },
+    {
+      "id": "ru-moscow-yuzhnoe-tushino",
+      "slug": "moskva-yuzhnoe-tushino",
+      "name": "Южное Тушино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.8505,
+        "lng": 37.4396
+      }
+    },
+    {
+      "id": "ru-moscow-strogino",
+      "slug": "moskva-strogino",
+      "name": "Строгино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.8038,
+        "lng": 37.4031
+      }
+    },
+    {
+      "id": "ru-moscow-mitino",
+      "slug": "moskva-mitino",
+      "name": "Митино",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-szao",
+      "coordinates": {
+        "lat": 55.8458,
+        "lng": 37.366267
+      }
+    },
+    {
+      "id": "ru-moscow-kommunarka",
+      "slug": "moskva-kommunarka",
+      "name": "Коммунарка",
+      "type": "district",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nao",
+      "coordinates": {
+        "lat": 55.5809,
+        "lng": 37.43865
+      }
+    },
+    {
+      "id": "ru-moscow-arbatskaya",
+      "slug": "moskva-metro-arbatskaya",
+      "name": "Арбатская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-arbat",
+      "coordinates": {
+        "lat": 55.752,
+        "lng": 37.6034
+      }
+    },
+    {
+      "id": "ru-moscow-smolenskaya",
+      "slug": "moskva-metro-smolenskaya",
+      "name": "Смоленская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-arbat",
+      "coordinates": {
+        "lat": 55.7481,
+        "lng": 37.5824
+      }
+    },
+    {
+      "id": "ru-moscow-kropotkinskaya",
+      "slug": "moskva-metro-kropotkinskaya",
+      "name": "Кропоткинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khamovniki",
+      "coordinates": {
+        "lat": 55.7453,
+        "lng": 37.6037
+      }
+    },
+    {
+      "id": "ru-moscow-baumanskaya",
+      "slug": "moskva-metro-baumanskaya",
+      "name": "Бауманская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-basmanniy",
+      "coordinates": {
+        "lat": 55.773,
+        "lng": 37.6806
+      }
+    },
+    {
+      "id": "ru-moscow-kurskaya",
+      "slug": "moskva-metro-kurskaya",
+      "name": "Курская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-basmanniy",
+      "coordinates": {
+        "lat": 55.7573,
+        "lng": 37.6586
+      }
+    },
+    {
+      "id": "ru-moscow-chkalovskaya",
+      "slug": "moskva-metro-chkalovskaya",
+      "name": "Чкаловская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-basmanniy",
+      "coordinates": {
+        "lat": 55.7565,
+        "lng": 37.6573
+      }
+    },
+    {
+      "id": "ru-moscow-kitay-gorod",
+      "slug": "moskva-metro-kitay-gorod",
+      "name": "Китай-город",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-basmanniy",
+      "coordinates": {
+        "lat": 55.7553,
+        "lng": 37.6333
+      }
+    },
+    {
+      "id": "ru-moscow-komsomolskaya",
+      "slug": "moskva-metro-komsomolskaya",
+      "name": "Комсомольская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krasnoselskiy",
+      "coordinates": {
+        "lat": 55.77505,
+        "lng": 37.65555
+      }
+    },
+    {
+      "id": "ru-moscow-krasnye-vorota",
+      "slug": "moskva-metro-krasnye-vorota",
+      "name": "Красные Ворота",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krasnoselskiy",
+      "coordinates": {
+        "lat": 55.769,
+        "lng": 37.6487
+      }
+    },
+    {
+      "id": "ru-moscow-sretenskiy-bulvar",
+      "slug": "moskva-metro-sretenskiy-bulvar",
+      "name": "Сретенский бульвар",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krasnoselskiy",
+      "coordinates": {
+        "lat": 55.7668,
+        "lng": 37.6392
+      }
+    },
+    {
+      "id": "ru-moscow-chistye-prudy",
+      "slug": "moskva-metro-chistye-prudy",
+      "name": "Чистые пруды",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krasnoselskiy",
+      "coordinates": {
+        "lat": 55.7657,
+        "lng": 37.6388
+      }
+    },
+    {
+      "id": "ru-moscow-turgenevskaya",
+      "slug": "moskva-metro-turgenevskaya",
+      "name": "Тургеневская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krasnoselskiy",
+      "coordinates": {
+        "lat": 55.7661,
+        "lng": 37.6374
+      }
+    },
+    {
+      "id": "ru-moscow-prospekt-mira",
+      "slug": "moskva-metro-prospekt-mira",
+      "name": "Проспект Мира",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7805,
+        "lng": 37.6318
+      }
+    },
+    {
+      "id": "ru-moscow-rizhskaya",
+      "slug": "moskva-metro-rizhskaya",
+      "name": "Рижская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7936,
+        "lng": 37.6362
+      }
+    },
+    {
+      "id": "ru-moscow-sukharevskaya",
+      "slug": "moskva-metro-sukharevskaya",
+      "name": "Сухаревская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7733,
+        "lng": 37.6319
+      }
+    },
+    {
+      "id": "ru-moscow-trubnaya",
+      "slug": "moskva-metro-trubnaya",
+      "name": "Трубная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7688,
+        "lng": 37.62
+      }
+    },
+    {
+      "id": "ru-moscow-tsvetnoy-bulvar",
+      "slug": "moskva-metro-tsvetnoy-bulvar",
+      "name": "Цветной бульвар",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7708,
+        "lng": 37.6187
+      }
+    },
+    {
+      "id": "ru-moscow-dostoevskaya",
+      "slug": "moskva-metro-dostoevskaya",
+      "name": "Достоевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-meshchanskiy",
+      "coordinates": {
+        "lat": 55.7816,
+        "lng": 37.6151
+      }
+    },
+    {
+      "id": "ru-moscow-barrikadnaya",
+      "slug": "moskva-metro-barrikadnaya",
+      "name": "Баррикадная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.7612,
+        "lng": 37.5795
+      }
+    },
+    {
+      "id": "ru-moscow-krasnopresnenskaya",
+      "slug": "moskva-metro-krasnopresnenskaya",
+      "name": "Краснопресненская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.7613,
+        "lng": 37.5774
+      }
+    },
+    {
+      "id": "ru-moscow-ulitsa-1905-goda",
+      "slug": "moskva-metro-ulitsa-1905-goda",
+      "name": "Улица 1905 года",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.765,
+        "lng": 37.5613
+      }
+    },
+    {
+      "id": "ru-moscow-vystavochnaya",
+      "slug": "moskva-metro-vystavochnaya",
+      "name": "Выставочная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.7502,
+        "lng": 37.5408
+      }
+    },
+    {
+      "id": "ru-moscow-mezhdunarodnaya",
+      "slug": "moskva-metro-mezhdunarodnaya",
+      "name": "Международная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.7483,
+        "lng": 37.5339
+      }
+    },
+    {
+      "id": "ru-moscow-delovoy-tsentr",
+      "slug": "moskva-metro-delovoy-tsentr",
+      "name": "Деловой центр",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-presnenskiy",
+      "coordinates": {
+        "lat": 55.74825,
+        "lng": 37.53555
+      }
+    },
+    {
+      "id": "ru-moscow-taganskaya",
+      "slug": "moskva-metro-taganskaya",
+      "name": "Таганская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-taganskiy",
+      "coordinates": {
+        "lat": 55.741,
+        "lng": 37.65195
+      }
+    },
+    {
+      "id": "ru-moscow-marksistskaya",
+      "slug": "moskva-metro-marksistskaya",
+      "name": "Марксистская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-taganskiy",
+      "coordinates": {
+        "lat": 55.7411,
+        "lng": 37.6543
+      }
+    },
+    {
+      "id": "ru-moscow-proletarskaya",
+      "slug": "moskva-metro-proletarskaya",
+      "name": "Пролетарская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-taganskiy",
+      "coordinates": {
+        "lat": 55.7319,
+        "lng": 37.6659
+      }
+    },
+    {
+      "id": "ru-moscow-krestyanskaya-zastava",
+      "slug": "moskva-metro-krestyanskaya-zastava",
+      "name": "Крестьянская Застава",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-taganskiy",
+      "coordinates": {
+        "lat": 55.7331,
+        "lng": 37.6673
+      }
+    },
+    {
+      "id": "ru-moscow-tverskaya",
+      "slug": "moskva-metro-tverskaya",
+      "name": "Тверская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.7647,
+        "lng": 37.6065
+      }
+    },
+    {
+      "id": "ru-moscow-pushkinskaya",
+      "slug": "moskva-metro-pushkinskaya",
+      "name": "Пушкинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.765,
+        "lng": 37.6079
+      }
+    },
+    {
+      "id": "ru-moscow-chekhovskaya",
+      "slug": "moskva-metro-chekhovskaya",
+      "name": "Чеховская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.7644,
+        "lng": 37.6097
+      }
+    },
+    {
+      "id": "ru-moscow-mayakovskaya",
+      "slug": "moskva-metro-mayakovskaya",
+      "name": "Маяковская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.7701,
+        "lng": 37.5958
+      }
+    },
+    {
+      "id": "ru-moscow-okhotnyy-ryad",
+      "slug": "moskva-metro-okhotnyy-ryad",
+      "name": "Охотный Ряд",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.7577,
+        "lng": 37.6166
+      }
+    },
+    {
+      "id": "ru-moscow-teatralnaya",
+      "slug": "moskva-metro-teatralnaya",
+      "name": "Театральная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tverskoy",
+      "coordinates": {
+        "lat": 55.7578,
+        "lng": 37.619
+      }
+    },
+    {
+      "id": "ru-moscow-park-kultury",
+      "slug": "moskva-metro-park-kultury",
+      "name": "Парк культуры",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khamovniki",
+      "coordinates": {
+        "lat": 55.73565,
+        "lng": 37.5929
+      }
+    },
+    {
+      "id": "ru-moscow-frunzenskaya",
+      "slug": "moskva-metro-frunzenskaya",
+      "name": "Фрунзенская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khamovniki",
+      "coordinates": {
+        "lat": 55.7267,
+        "lng": 37.5786
+      }
+    },
+    {
+      "id": "ru-moscow-sportivnaya",
+      "slug": "moskva-metro-sportivnaya",
+      "name": "Спортивная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khamovniki",
+      "coordinates": {
+        "lat": 55.7233,
+        "lng": 37.5639
+      }
+    },
+    {
+      "id": "ru-moscow-oktyabrskaya",
+      "slug": "moskva-metro-oktyabrskaya",
+      "name": "Октябрьская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yakimanka",
+      "coordinates": {
+        "lat": 55.73015,
+        "lng": 37.61015
+      }
+    },
+    {
+      "id": "ru-moscow-polyanka",
+      "slug": "moskva-metro-polyanka",
+      "name": "Полянка",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yakimanka",
+      "coordinates": {
+        "lat": 55.7379,
+        "lng": 37.618
+      }
+    },
+    {
+      "id": "ru-moscow-shabolovskaya",
+      "slug": "moskva-metro-shabolovskaya",
+      "name": "Шаболовская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yakimanka",
+      "coordinates": {
+        "lat": 55.7198,
+        "lng": 37.6083
+      }
+    },
+    {
+      "id": "ru-moscow-paveletskaya",
+      "slug": "moskva-metro-paveletskaya",
+      "name": "Павелецкая",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zamoskvoreche",
+      "coordinates": {
+        "lat": 55.73115,
+        "lng": 37.6378
+      }
+    },
+    {
+      "id": "ru-moscow-novokuznetskaya",
+      "slug": "moskva-metro-novokuznetskaya",
+      "name": "Новокузнецкая",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zamoskvoreche",
+      "coordinates": {
+        "lat": 55.7415,
+        "lng": 37.6295
+      }
+    },
+    {
+      "id": "ru-moscow-tretyakovskaya",
+      "slug": "moskva-metro-tretyakovskaya",
+      "name": "Третьяковская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zamoskvoreche",
+      "coordinates": {
+        "lat": 55.7412,
+        "lng": 37.6274
+      }
+    },
+    {
+      "id": "ru-moscow-belorusskaya",
+      "slug": "moskva-metro-belorusskaya",
+      "name": "Белорусская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-begovoy",
+      "coordinates": {
+        "lat": 55.77655,
+        "lng": 37.58395
+      }
+    },
+    {
+      "id": "ru-moscow-dinamo",
+      "slug": "moskva-metro-dinamo",
+      "name": "Динамо",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-begovoy",
+      "coordinates": {
+        "lat": 55.7897,
+        "lng": 37.558
+      }
+    },
+    {
+      "id": "ru-moscow-petrovskiy-park",
+      "slug": "moskva-metro-petrovskiy-park",
+      "name": "Петровский парк",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-begovoy",
+      "coordinates": {
+        "lat": 55.79215,
+        "lng": 37.55745
+      }
+    },
+    {
+      "id": "ru-moscow-aeroport-metro",
+      "slug": "moskva-metro-aeroport",
+      "name": "Аэропорт",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-aeroport",
+      "coordinates": {
+        "lat": 55.8003,
+        "lng": 37.5329
+      }
+    },
+    {
+      "id": "ru-moscow-sokol-metro",
+      "slug": "moskva-metro-sokol",
+      "name": "Сокол",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sokol",
+      "coordinates": {
+        "lat": 55.8051,
+        "lng": 37.5153
+      }
+    },
+    {
+      "id": "ru-moscow-voykovskaya",
+      "slug": "moskva-metro-voykovskaya",
+      "name": "Войковская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-voykovskiy",
+      "coordinates": {
+        "lat": 55.819,
+        "lng": 37.498
+      }
+    },
+    {
+      "id": "ru-moscow-vodnyy-stadion",
+      "slug": "moskva-metro-vodnyy-stadion",
+      "name": "Водный стадион",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-golovinskiy",
+      "coordinates": {
+        "lat": 55.8398,
+        "lng": 37.4867
+      }
+    },
+    {
+      "id": "ru-moscow-rechnoy-vokzal",
+      "slug": "moskva-metro-rechnoy-vokzal",
+      "name": "Речной вокзал",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-levoberezhniy",
+      "coordinates": {
+        "lat": 55.8549,
+        "lng": 37.4761
+      }
+    },
+    {
+      "id": "ru-moscow-belomorskaya",
+      "slug": "moskva-metro-belomorskaya",
+      "name": "Беломорская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-levoberezhniy",
+      "coordinates": {
+        "lat": 55.865833,
+        "lng": 37.476388
+      }
+    },
+    {
+      "id": "ru-moscow-khovrino-metro",
+      "slug": "moskva-metro-khovrino",
+      "name": "Ховрино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khovrino",
+      "coordinates": {
+        "lat": 55.879167,
+        "lng": 37.482222
+      }
+    },
+    {
+      "id": "ru-moscow-savelovskaya",
+      "slug": "moskva-metro-savelovskaya",
+      "name": "Савёловская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-savelovskiy",
+      "coordinates": {
+        "lat": 55.79305,
+        "lng": 37.58775
+      }
+    },
+    {
+      "id": "ru-moscow-timiryazevskaya",
+      "slug": "moskva-metro-timiryazevskaya",
+      "name": "Тимирязевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-timiryazevskiy",
+      "coordinates": {
+        "lat": 55.8183,
+        "lng": 37.5777
+      }
+    },
+    {
+      "id": "ru-moscow-alekseevskaya",
+      "slug": "moskva-metro-alekseevskaya",
+      "name": "Алексеевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-alekseevskiy",
+      "coordinates": {
+        "lat": 55.8088,
+        "lng": 37.639
+      }
+    },
+    {
+      "id": "ru-moscow-vdnh",
+      "slug": "moskva-metro-vdnh",
+      "name": "ВДНХ",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ostankinskiy",
+      "coordinates": {
+        "lat": 55.8211,
+        "lng": 37.6411
+      }
+    },
+    {
+      "id": "ru-moscow-babushkinskaya",
+      "slug": "moskva-metro-babushkinskaya",
+      "name": "Бабушкинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-babushkinskiy",
+      "coordinates": {
+        "lat": 55.8694,
+        "lng": 37.6644
+      }
+    },
+    {
+      "id": "ru-moscow-bibirevo-metro",
+      "slug": "moskva-metro-bibirevo",
+      "name": "Бибирево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-bibirevo",
+      "coordinates": {
+        "lat": 55.8838,
+        "lng": 37.6034
+      }
+    },
+    {
+      "id": "ru-moscow-altufevo",
+      "slug": "moskva-metro-altufevo",
+      "name": "Алтуфьево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-lianozovo",
+      "coordinates": {
+        "lat": 55.898,
+        "lng": 37.587
+      }
+    },
+    {
+      "id": "ru-moscow-lianozovo-metro",
+      "slug": "moskva-metro-lianozovo",
+      "name": "Лианозово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-lianozovo",
+      "coordinates": {
+        "lat": 55.898,
+        "lng": 37.587
+      }
+    },
+    {
+      "id": "ru-moscow-maryina-roshcha-metro",
+      "slug": "moskva-metro-maryina-roshcha",
+      "name": "Марьина Роща",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-maryina-roshcha",
+      "coordinates": {
+        "lat": 55.7954,
+        "lng": 37.6162
+      }
+    },
+    {
+      "id": "ru-moscow-otradnoe-metro",
+      "slug": "moskva-metro-otradnoe",
+      "name": "Отрадное",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-otradnoe",
+      "coordinates": {
+        "lat": 55.8633,
+        "lng": 37.6047
+      }
+    },
+    {
+      "id": "ru-moscow-vladykino",
+      "slug": "moskva-metro-vladykino",
+      "name": "Владыкино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-otradnoe",
+      "coordinates": {
+        "lat": 55.84735,
+        "lng": 37.59125
+      }
+    },
+    {
+      "id": "ru-moscow-sviblovo-metro",
+      "slug": "moskva-metro-sviblovo",
+      "name": "Свиблово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sviblovo",
+      "coordinates": {
+        "lat": 55.8552,
+        "lng": 37.6527
+      }
+    },
+    {
+      "id": "ru-moscow-botanicheskiy-sad",
+      "slug": "moskva-metro-botanicheskiy-sad",
+      "name": "Ботанический сад",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sviblovo",
+      "coordinates": {
+        "lat": 55.84525,
+        "lng": 37.6383
+      }
+    },
+    {
+      "id": "ru-moscow-bulvar-rokossovskogo",
+      "slug": "moskva-metro-bulvar-rokossovskogo",
+      "name": "Бульвар Рокоссовского",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-bogorodskoe",
+      "coordinates": {
+        "lat": 55.816,
+        "lng": 37.73575
+      }
+    },
+    {
+      "id": "ru-moscow-shchelkovskaya",
+      "slug": "moskva-metro-shchelkovskaya",
+      "name": "Щёлковская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-golianovo",
+      "coordinates": {
+        "lat": 55.8094,
+        "lng": 37.7986
+      }
+    },
+    {
+      "id": "ru-moscow-partizanskaya",
+      "slug": "moskva-metro-partizanskaya",
+      "name": "Партизанская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-izmaylovo",
+      "coordinates": {
+        "lat": 55.7886,
+        "lng": 37.7506
+      }
+    },
+    {
+      "id": "ru-moscow-izmaylovskaya",
+      "slug": "moskva-metro-izmaylovskaya",
+      "name": "Измайловская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-izmaylovo",
+      "coordinates": {
+        "lat": 55.7878,
+        "lng": 37.7814
+      }
+    },
+    {
+      "id": "ru-moscow-pervomayskaya",
+      "slug": "moskva-metro-pervomayskaya",
+      "name": "Первомайская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-izmaylovo",
+      "coordinates": {
+        "lat": 55.7948,
+        "lng": 37.7993
+      }
+    },
+    {
+      "id": "ru-moscow-novogireevo-metro",
+      "slug": "moskva-metro-novogireevo",
+      "name": "Новогиреево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-novogireevo",
+      "coordinates": {
+        "lat": 55.7517,
+        "lng": 37.8166
+      }
+    },
+    {
+      "id": "ru-moscow-perovo-metro",
+      "slug": "moskva-metro-perovo",
+      "name": "Перово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-perovo",
+      "coordinates": {
+        "lat": 55.7511,
+        "lng": 37.7866
+      }
+    },
+    {
+      "id": "ru-moscow-preobrazhenskaya-ploshchad",
+      "slug": "moskva-metro-preobrazhenskaya-ploshchad",
+      "name": "Преображенская площадь",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-preobrazhenskoe",
+      "coordinates": {
+        "lat": 55.7963,
+        "lng": 37.7151
+      }
+    },
+    {
+      "id": "ru-moscow-cherkizovskaya",
+      "slug": "moskva-metro-cherkizovskaya",
+      "name": "Черкизовская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-preobrazhenskoe",
+      "coordinates": {
+        "lat": 55.8038,
+        "lng": 37.7448
+      }
+    },
+    {
+      "id": "ru-moscow-shosse-entuziastov",
+      "slug": "moskva-metro-shosse-entuziastov",
+      "name": "Шоссе Энтузиастов",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sokolinaya-gora",
+      "coordinates": {
+        "lat": 55.75825,
+        "lng": 37.74815
+      }
+    },
+    {
+      "id": "ru-moscow-sokolniki-metro",
+      "slug": "moskva-metro-sokolniki",
+      "name": "Сокольники",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-sokolniki",
+      "coordinates": {
+        "lat": 55.7888,
+        "lng": 37.6802
+      }
+    },
+    {
+      "id": "ru-moscow-vykhino",
+      "slug": "moskva-metro-vykhino",
+      "name": "Выхино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vykhino-zhulebino",
+      "coordinates": {
+        "lat": 55.7156,
+        "lng": 37.8181
+      }
+    },
+    {
+      "id": "ru-moscow-lermontovskiy-prospekt",
+      "slug": "moskva-metro-lermontovskiy-prospekt",
+      "name": "Лермонтовский проспект",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vykhino-zhulebino",
+      "coordinates": {
+        "lat": 55.7013,
+        "lng": 37.8525
+      }
+    },
+    {
+      "id": "ru-moscow-zhulebino",
+      "slug": "moskva-metro-zhulebino",
+      "name": "Жулебино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-vykhino-zhulebino",
+      "coordinates": {
+        "lat": 55.6855,
+        "lng": 37.8563
+      }
+    },
+    {
+      "id": "ru-moscow-kuzminki-metro",
+      "slug": "moskva-metro-kuzminki",
+      "name": "Кузьминки",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kuzminki",
+      "coordinates": {
+        "lat": 55.7056,
+        "lng": 37.7656
+      }
+    },
+    {
+      "id": "ru-moscow-aviamotornaya",
+      "slug": "moskva-metro-aviamotornaya",
+      "name": "Авиамоторная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-lefortovo",
+      "coordinates": {
+        "lat": 55.752728,
+        "lng": 37.718856
+      }
+    },
+    {
+      "id": "ru-moscow-lefortovo-metro",
+      "slug": "moskva-metro-lefortovo",
+      "name": "Лефортово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-lefortovo",
+      "coordinates": {
+        "lat": 55.764444,
+        "lng": 37.702777
+      }
+    },
+    {
+      "id": "ru-moscow-liublino-metro",
+      "slug": "moskva-metro-liublino",
+      "name": "Люблино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-liublino",
+      "coordinates": {
+        "lat": 55.6758,
+        "lng": 37.7618
+      }
+    },
+    {
+      "id": "ru-moscow-bratislavskaya",
+      "slug": "moskva-metro-bratislavskaya",
+      "name": "Братиславская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-marino",
+      "coordinates": {
+        "lat": 55.6597,
+        "lng": 37.7505
+      }
+    },
+    {
+      "id": "ru-moscow-marino-metro",
+      "slug": "moskva-metro-marino",
+      "name": "Марьино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-marino",
+      "coordinates": {
+        "lat": 55.65,
+        "lng": 37.7431
+      }
+    },
+    {
+      "id": "ru-moscow-nizhegorodskaya",
+      "slug": "moskva-metro-nizhegorodskaya",
+      "name": "Нижегородская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nizhegorodskiy",
+      "coordinates": {
+        "lat": 55.7323,
+        "lng": 37.728355
+      }
+    },
+    {
+      "id": "ru-moscow-pechatniki-metro",
+      "slug": "moskva-metro-pechatniki",
+      "name": "Печатники",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-pechatniki",
+      "coordinates": {
+        "lat": 55.6934,
+        "lng": 37.727
+      }
+    },
+    {
+      "id": "ru-moscow-ryazanskiy-prospekt",
+      "slug": "moskva-metro-ryazanskiy-prospekt",
+      "name": "Рязанский проспект",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ryazanskiy",
+      "coordinates": {
+        "lat": 55.717,
+        "lng": 37.7933
+      }
+    },
+    {
+      "id": "ru-moscow-okskaya",
+      "slug": "moskva-metro-okskaya",
+      "name": "Окская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ryazanskiy",
+      "coordinates": {
+        "lat": 55.718611,
+        "lng": 37.781666
+      }
+    },
+    {
+      "id": "ru-moscow-tekstilshchiki-metro",
+      "slug": "moskva-metro-tekstilshchiki",
+      "name": "Текстильщики",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tekstilshchiki",
+      "coordinates": {
+        "lat": 55.7088,
+        "lng": 37.7316
+      }
+    },
+    {
+      "id": "ru-moscow-avtozavodskaya",
+      "slug": "moskva-metro-avtozavodskaya",
+      "name": "Автозаводская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-danilovskiy",
+      "coordinates": {
+        "lat": 55.707,
+        "lng": 37.6606
+      }
+    },
+    {
+      "id": "ru-moscow-tulskaya",
+      "slug": "moskva-metro-tulskaya",
+      "name": "Тульская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-danilovskiy",
+      "coordinates": {
+        "lat": 55.7087,
+        "lng": 37.6229
+      }
+    },
+    {
+      "id": "ru-moscow-tekhnopark",
+      "slug": "moskva-metro-tekhnopark",
+      "name": "Технопарк",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-danilovskiy",
+      "coordinates": {
+        "lat": 55.6933,
+        "lng": 37.6645
+      }
+    },
+    {
+      "id": "ru-moscow-leninskiy-prospekt",
+      "slug": "moskva-metro-leninskiy-prospekt",
+      "name": "Ленинский проспект",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-donskoy",
+      "coordinates": {
+        "lat": 55.7077,
+        "lng": 37.5861
+      }
+    },
+    {
+      "id": "ru-moscow-kantemirovskaya",
+      "slug": "moskva-metro-kantemirovskaya",
+      "name": "Кантемировская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-moskvoreche-saburovo",
+      "coordinates": {
+        "lat": 55.6358,
+        "lng": 37.6564
+      }
+    },
+    {
+      "id": "ru-moscow-kashirskaya",
+      "slug": "moskva-metro-kashirskaya",
+      "name": "Каширская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nagatino-sadovniki",
+      "coordinates": {
+        "lat": 55.6551,
+        "lng": 37.6487
+      }
+    },
+    {
+      "id": "ru-moscow-nagatinskaya",
+      "slug": "moskva-metro-nagatinskaya",
+      "name": "Нагатинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nagatino-sadovniki",
+      "coordinates": {
+        "lat": 55.683,
+        "lng": 37.6224
+      }
+    },
+    {
+      "id": "ru-moscow-kolomenskaya",
+      "slug": "moskva-metro-kolomenskaya",
+      "name": "Коломенская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nagatinskiy-zaton",
+      "coordinates": {
+        "lat": 55.6785,
+        "lng": 37.6638
+      }
+    },
+    {
+      "id": "ru-moscow-klenovyy-bulvar",
+      "slug": "moskva-metro-klenovyy-bulvar",
+      "name": "Кленовый бульвар",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nagatinskiy-zaton",
+      "coordinates": {
+        "lat": 55.6785,
+        "lng": 37.6638
+      }
+    },
+    {
+      "id": "ru-moscow-nagatinskiy-zaton-metro",
+      "slug": "moskva-metro-nagatinskiy-zaton",
+      "name": "Нагатинский Затон",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-nagatinskiy-zaton",
+      "coordinates": {
+        "lat": 55.6785,
+        "lng": 37.6638
+      }
+    },
+    {
+      "id": "ru-moscow-orekhovo",
+      "slug": "moskva-metro-orekhovo",
+      "name": "Орехово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-orekhovo-borisovo-severnoe",
+      "coordinates": {
+        "lat": 55.6132,
+        "lng": 37.6949
+      }
+    },
+    {
+      "id": "ru-moscow-domodedovskaya",
+      "slug": "moskva-metro-domodedovskaya",
+      "name": "Домодедовская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-orekhovo-borisovo-severnoe",
+      "coordinates": {
+        "lat": 55.6108,
+        "lng": 37.7186
+      }
+    },
+    {
+      "id": "ru-moscow-krasnogvardeyskaya",
+      "slug": "moskva-metro-krasnogvardeyskaya",
+      "name": "Красногвардейская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-orekhovo-borisovo-yuzhnoe",
+      "coordinates": {
+        "lat": 55.6137,
+        "lng": 37.7444
+      }
+    },
+    {
+      "id": "ru-moscow-zyablikovo",
+      "slug": "moskva-metro-zyablikovo",
+      "name": "Зябликово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-orekhovo-borisovo-yuzhnoe",
+      "coordinates": {
+        "lat": 55.6124,
+        "lng": 37.7453
+      }
+    },
+    {
+      "id": "ru-moscow-tsaritsyno-metro",
+      "slug": "moskva-metro-tsaritsyno",
+      "name": "Царицыно",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-tsaritsyno",
+      "coordinates": {
+        "lat": 55.6214,
+        "lng": 37.6694
+      }
+    },
+    {
+      "id": "ru-moscow-akademicheskaya-metro",
+      "slug": "moskva-metro-akademicheskaya",
+      "name": "Академическая",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-akademicheskiy",
+      "coordinates": {
+        "lat": 55.6877,
+        "lng": 37.5733
+      }
+    },
+    {
+      "id": "ru-moscow-leninskiy-prospekt-yuzao",
+      "slug": "moskva-metro-leninskiy-prospekt-yuzao",
+      "name": "Ленинский проспект",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-gagarinskiy",
+      "coordinates": {
+        "lat": 55.7077,
+        "lng": 37.5861
+      }
+    },
+    {
+      "id": "ru-moscow-zyuzino-metro",
+      "slug": "moskva-metro-zyuzino",
+      "name": "Зюзино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-zyuzino",
+      "coordinates": {
+        "lat": 55.633394,
+        "lng": 37.549772
+      }
+    },
+    {
+      "id": "ru-moscow-konkovo-metro",
+      "slug": "moskva-metro-konkovo",
+      "name": "Коньково",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-konkovo",
+      "coordinates": {
+        "lat": 55.6333,
+        "lng": 37.5188
+      }
+    },
+    {
+      "id": "ru-moscow-belyaevo",
+      "slug": "moskva-metro-belyaevo",
+      "name": "Беляево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-konkovo",
+      "coordinates": {
+        "lat": 55.6428,
+        "lng": 37.5257
+      }
+    },
+    {
+      "id": "ru-moscow-kaluzhskaya",
+      "slug": "moskva-metro-kaluzhskaya",
+      "name": "Калужская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-obruchevskiy",
+      "coordinates": {
+        "lat": 55.65775,
+        "lng": 37.543
+      }
+    },
+    {
+      "id": "ru-moscow-vorontsovskaya",
+      "slug": "moskva-metro-vorontsovskaya",
+      "name": "Воронцовская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-obruchevskiy",
+      "coordinates": {
+        "lat": 55.65775,
+        "lng": 37.543
+      }
+    },
+    {
+      "id": "ru-moscow-novatorskaya",
+      "slug": "moskva-metro-novatorskaya",
+      "name": "Новаторская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-obruchevskiy",
+      "coordinates": {
+        "lat": 55.65775,
+        "lng": 37.543
+      }
+    },
+    {
+      "id": "ru-moscow-bulvar-dmitriya-donskogo",
+      "slug": "moskva-metro-bulvar-dmitriya-donskogo",
+      "name": "Бульвар Дмитрия Донского",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-severnoe-butovo",
+      "coordinates": {
+        "lat": 55.5693,
+        "lng": 37.5769
+      }
+    },
+    {
+      "id": "ru-moscow-ulitsa-starokachalovskaya",
+      "slug": "moskva-metro-ulitsa-starokachalovskaya",
+      "name": "Улица Старокачаловская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-severnoe-butovo",
+      "coordinates": {
+        "lat": 55.569,
+        "lng": 37.5767
+      }
+    },
+    {
+      "id": "ru-moscow-teplyy-stan-metro",
+      "slug": "moskva-metro-teplyy-stan",
+      "name": "Тёплый Стан",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-teplyy-stan",
+      "coordinates": {
+        "lat": 55.6191,
+        "lng": 37.5082
+      }
+    },
+    {
+      "id": "ru-moscow-novye-cheremushki",
+      "slug": "moskva-metro-novye-cheremushki",
+      "name": "Новые Черёмушки",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cheremushki",
+      "coordinates": {
+        "lat": 55.6702,
+        "lng": 37.5544
+      }
+    },
+    {
+      "id": "ru-moscow-profsoyuznaya",
+      "slug": "moskva-metro-profsoyuznaya",
+      "name": "Профсоюзная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-cheremushki",
+      "coordinates": {
+        "lat": 55.678,
+        "lng": 37.5627
+      }
+    },
+    {
+      "id": "ru-moscow-buninskaya-alleya",
+      "slug": "moskva-metro-buninskaya-alleya",
+      "name": "Бунинская аллея",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzhnoe-butovo",
+      "coordinates": {
+        "lat": 55.538,
+        "lng": 37.5158
+      }
+    },
+    {
+      "id": "ru-moscow-ulitsa-skobelevskaya",
+      "slug": "moskva-metro-ulitsa-skobelevskaya",
+      "name": "Улица Скобелевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzhnoe-butovo",
+      "coordinates": {
+        "lat": 55.5481,
+        "lng": 37.5546
+      }
+    },
+    {
+      "id": "ru-moscow-bulvar-admirala-ushakova",
+      "slug": "moskva-metro-bulvar-admirala-ushakova",
+      "name": "Бульвар Адмирала Ушакова",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzhnoe-butovo",
+      "coordinates": {
+        "lat": 55.5455,
+        "lng": 37.543
+      }
+    },
+    {
+      "id": "ru-moscow-ulitsa-gorchakova",
+      "slug": "moskva-metro-ulitsa-gorchakova",
+      "name": "Улица Горчакова",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzhnoe-butovo",
+      "coordinates": {
+        "lat": 55.5418,
+        "lng": 37.5308
+      }
+    },
+    {
+      "id": "ru-moscow-yasenevo-metro",
+      "slug": "moskva-metro-yasenevo",
+      "name": "Ясенево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yasenevo",
+      "coordinates": {
+        "lat": 55.6063,
+        "lng": 37.5333
+      }
+    },
+    {
+      "id": "ru-moscow-novoyasenevskaya",
+      "slug": "moskva-metro-novoyasenevskaya",
+      "name": "Новоясеневская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yasenevo",
+      "coordinates": {
+        "lat": 55.601,
+        "lng": 37.5541
+      }
+    },
+    {
+      "id": "ru-moscow-kievskaya",
+      "slug": "moskva-metro-kievskaya",
+      "name": "Киевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-dorogomilovo",
+      "coordinates": {
+        "lat": 55.744133,
+        "lng": 37.5648
+      }
+    },
+    {
+      "id": "ru-moscow-studencheskaya",
+      "slug": "moskva-metro-studencheskaya",
+      "name": "Студенческая",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-dorogomilovo",
+      "coordinates": {
+        "lat": 55.7388,
+        "lng": 37.5483
+      }
+    },
+    {
+      "id": "ru-moscow-krylatskoe-metro",
+      "slug": "moskva-metro-krylatskoe",
+      "name": "Крылатское",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-krylatskoe",
+      "coordinates": {
+        "lat": 55.7567,
+        "lng": 37.4081
+      }
+    },
+    {
+      "id": "ru-moscow-molodezhnaya",
+      "slug": "moskva-metro-molodezhnaya",
+      "name": "Молодёжная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kuntsevo",
+      "coordinates": {
+        "lat": 55.7408,
+        "lng": 37.4168
+      }
+    },
+    {
+      "id": "ru-moscow-kuntsevskaya",
+      "slug": "moskva-metro-kuntsevskaya",
+      "name": "Кунцевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-fili-davydkovo",
+      "coordinates": {
+        "lat": 55.7307,
+        "lng": 37.4459
+      }
+    },
+    {
+      "id": "ru-moscow-novoperedelkino-metro",
+      "slug": "moskva-metro-novoperedelkino",
+      "name": "Новопеределкино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-novo-peredelkino",
+      "coordinates": {
+        "lat": 55.6396,
+        "lng": 37.3552
+      }
+    },
+    {
+      "id": "ru-moscow-rasskazovka",
+      "slug": "moskva-metro-rasskazovka",
+      "name": "Рассказовка",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-novo-peredelkino",
+      "coordinates": {
+        "lat": 55.6339,
+        "lng": 37.3347
+      }
+    },
+    {
+      "id": "ru-moscow-aminyevskaya",
+      "slug": "moskva-metro-aminyevskaya",
+      "name": "Аминьевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ochakovo-matveevskoe",
+      "coordinates": {
+        "lat": 55.670448,
+        "lng": 37.449525
+      }
+    },
+    {
+      "id": "ru-moscow-ozernaya",
+      "slug": "moskva-metro-ozernaya",
+      "name": "Озёрная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ochakovo-matveevskoe",
+      "coordinates": {
+        "lat": 55.670448,
+        "lng": 37.449525
+      }
+    },
+    {
+      "id": "ru-moscow-lomonosovskiy-prospekt",
+      "slug": "moskva-metro-lomonosovskiy-prospekt",
+      "name": "Ломоносовский проспект",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ramenki",
+      "coordinates": {
+        "lat": 55.7069,
+        "lng": 37.5156
+      }
+    },
+    {
+      "id": "ru-moscow-ramenki-metro",
+      "slug": "moskva-metro-ramenki",
+      "name": "Раменки",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ramenki",
+      "coordinates": {
+        "lat": 55.6975,
+        "lng": 37.4984
+      }
+    },
+    {
+      "id": "ru-moscow-minskaya",
+      "slug": "moskva-metro-minskaya",
+      "name": "Минская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-ramenki",
+      "coordinates": {
+        "lat": 55.7246,
+        "lng": 37.497
+      }
+    },
+    {
+      "id": "ru-moscow-solntsevo-metro",
+      "slug": "moskva-metro-solntsevo",
+      "name": "Солнцево",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-solntsevo",
+      "coordinates": {
+        "lat": 55.6493,
+        "lng": 37.3909
+      }
+    },
+    {
+      "id": "ru-moscow-govorovo",
+      "slug": "moskva-metro-govorovo",
+      "name": "Говорово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-solntsevo",
+      "coordinates": {
+        "lat": 55.659531,
+        "lng": 37.417392
+      }
+    },
+    {
+      "id": "ru-moscow-yugo-zapadnaya",
+      "slug": "moskva-metro-yugo-zapadnaya",
+      "name": "Юго-Западная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-troparevo-nikulino",
+      "coordinates": {
+        "lat": 55.6637,
+        "lng": 37.4833
+      }
+    },
+    {
+      "id": "ru-moscow-troparevo",
+      "slug": "moskva-metro-troparevo",
+      "name": "Тропарёво",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-troparevo-nikulino",
+      "coordinates": {
+        "lat": 55.6459,
+        "lng": 37.4725
+      }
+    },
+    {
+      "id": "ru-moscow-fili",
+      "slug": "moskva-metro-fili",
+      "name": "Фили",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-filevskiy-park",
+      "coordinates": {
+        "lat": 55.746,
+        "lng": 37.515
+      }
+    },
+    {
+      "id": "ru-moscow-bagrationovskaya",
+      "slug": "moskva-metro-bagrationovskaya",
+      "name": "Багратионовская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-filevskiy-park",
+      "coordinates": {
+        "lat": 55.7438,
+        "lng": 37.4977
+      }
+    },
+    {
+      "id": "ru-moscow-filevskiy-park-metro",
+      "slug": "moskva-metro-filevskiy-park",
+      "name": "Филёвский парк",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-filevskiy-park",
+      "coordinates": {
+        "lat": 55.7396,
+        "lng": 37.4833
+      }
+    },
+    {
+      "id": "ru-moscow-pionerskaya",
+      "slug": "moskva-metro-pionerskaya",
+      "name": "Пионерская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-filevskiy-park",
+      "coordinates": {
+        "lat": 55.736,
+        "lng": 37.4671
+      }
+    },
+    {
+      "id": "ru-moscow-slavyanskiy-bulvar",
+      "slug": "moskva-metro-slavyanskiy-bulvar",
+      "name": "Славянский бульвар",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-fili-davydkovo",
+      "coordinates": {
+        "lat": 55.7296,
+        "lng": 37.4706
+      }
+    },
+    {
+      "id": "ru-moscow-davydkovo",
+      "slug": "moskva-metro-davydkovo",
+      "name": "Давыдково",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-fili-davydkovo",
+      "coordinates": {
+        "lat": 55.73015,
+        "lng": 37.45825
+      }
+    },
+    {
+      "id": "ru-moscow-polezhaevskaya",
+      "slug": "moskva-metro-polezhaevskaya",
+      "name": "Полежаевская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khoroshevo-mnevniki",
+      "coordinates": {
+        "lat": 55.7775,
+        "lng": 37.5192
+      }
+    },
+    {
+      "id": "ru-moscow-khoroshevskaya",
+      "slug": "moskva-metro-khoroshevskaya",
+      "name": "Хорошёвская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khoroshevo-mnevniki",
+      "coordinates": {
+        "lat": 55.77695,
+        "lng": 37.5126
+      }
+    },
+    {
+      "id": "ru-moscow-narodnoe-opolchenie",
+      "slug": "moskva-metro-narodnoe-opolchenie",
+      "name": "Народное Ополчение",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khoroshevo-mnevniki",
+      "coordinates": {
+        "lat": 55.777225,
+        "lng": 37.5159
+      }
+    },
+    {
+      "id": "ru-moscow-mnevniki",
+      "slug": "moskva-metro-mnevniki",
+      "name": "Мнёвники",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-khoroshevo-mnevniki",
+      "coordinates": {
+        "lat": 55.777225,
+        "lng": 37.5159
+      }
+    },
+    {
+      "id": "ru-moscow-shchukinskaya",
+      "slug": "moskva-metro-shchukinskaya",
+      "name": "Щукинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-shchukino",
+      "coordinates": {
+        "lat": 55.8086,
+        "lng": 37.4641
+      }
+    },
+    {
+      "id": "ru-moscow-oktyabrskoe-pole",
+      "slug": "moskva-metro-oktyabrskoe-pole",
+      "name": "Октябрьское Поле",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-shchukino",
+      "coordinates": {
+        "lat": 55.7935,
+        "lng": 37.4935
+      }
+    },
+    {
+      "id": "ru-moscow-spartak",
+      "slug": "moskva-metro-spartak",
+      "name": "Спартак",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-pokrovskoe-streshnevo",
+      "coordinates": {
+        "lat": 55.8182,
+        "lng": 37.4352
+      }
+    },
+    {
+      "id": "ru-moscow-tushinskaya",
+      "slug": "moskva-metro-tushinskaya",
+      "name": "Тушинская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-pokrovskoe-streshnevo",
+      "coordinates": {
+        "lat": 55.8267,
+        "lng": 37.4368
+      }
+    },
+    {
+      "id": "ru-moscow-planernaya",
+      "slug": "moskva-metro-planernaya",
+      "name": "Планерная",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-severnoe-tushino",
+      "coordinates": {
+        "lat": 55.8607,
+        "lng": 37.4364
+      }
+    },
+    {
+      "id": "ru-moscow-skhodnenskaya",
+      "slug": "moskva-metro-skhodnenskaya",
+      "name": "Сходненская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-yuzhnoe-tushino",
+      "coordinates": {
+        "lat": 55.8505,
+        "lng": 37.4396
+      }
+    },
+    {
+      "id": "ru-moscow-strogino-metro",
+      "slug": "moskva-metro-strogino",
+      "name": "Строгино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-strogino",
+      "coordinates": {
+        "lat": 55.8038,
+        "lng": 37.4031
+      }
+    },
+    {
+      "id": "ru-moscow-mitino-metro",
+      "slug": "moskva-metro-mitino",
+      "name": "Митино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-mitino",
+      "coordinates": {
+        "lat": 55.8457,
+        "lng": 37.3622
+      }
+    },
+    {
+      "id": "ru-moscow-volokolamskaya",
+      "slug": "moskva-metro-volokolamskaya",
+      "name": "Волоколамская",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-mitino",
+      "coordinates": {
+        "lat": 55.8354,
+        "lng": 37.3822
+      }
+    },
+    {
+      "id": "ru-moscow-pyatnitskoe-shosse",
+      "slug": "moskva-metro-pyatnitskoe-shosse",
+      "name": "Пятницкое шоссе",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-mitino",
+      "coordinates": {
+        "lat": 55.8563,
+        "lng": 37.3544
+      }
+    },
+    {
+      "id": "ru-moscow-kommunarka-metro",
+      "slug": "moskva-metro-kommunarka",
+      "name": "Коммунарка",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kommunarka",
+      "coordinates": {
+        "lat": 55.5605,
+        "lng": 37.4696
+      }
+    },
+    {
+      "id": "ru-moscow-olkhovaya",
+      "slug": "moskva-metro-olkhovaya",
+      "name": "Ольховая",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kommunarka",
+      "coordinates": {
+        "lat": 55.5809,
+        "lng": 37.43865
+      }
+    },
+    {
+      "id": "ru-moscow-prokshino",
+      "slug": "moskva-metro-prokshino",
+      "name": "Прокшино",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kommunarka",
+      "coordinates": {
+        "lat": 55.5809,
+        "lng": 37.43865
+      }
+    },
+    {
+      "id": "ru-moscow-filatov-lug",
+      "slug": "moskva-metro-filatov-lug",
+      "name": "Филатов Луг",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kommunarka",
+      "coordinates": {
+        "lat": 55.6013,
+        "lng": 37.4077
+      }
+    },
+    {
+      "id": "ru-moscow-potapovo",
+      "slug": "moskva-metro-potapovo",
+      "name": "Потапово",
+      "type": "metro",
+      "city_id": "ru-moscow",
+      "parent_id": "ru-moscow-kommunarka",
+      "coordinates": {
+        "lat": 55.5809,
+        "lng": 37.43865
+      }
+    }
+  ]
+}
